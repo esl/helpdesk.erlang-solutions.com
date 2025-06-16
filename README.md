@@ -1,1 +1,1 @@
-For assistance, please reach out to rabbitmq-support@seventhstate.io until the Support Portal is operational again.
+We are sorry. We are experiencing some technical difficulties. For RabbitMQ related issues, please report issues at rabbitmq-support@seventhstate.io. For other products (MongooseIM, Erlang) please report issues at helpdesk-direct@erlang-solutions.com
