@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Helpdesk support has moved</title>
+  <meta name="robots" content="noindex,nofollow" />
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; }
+    main { max-width: 760px; margin: 0 auto; padding: 48px 20px; }
+    h1 { font-size: 28px; margin: 0 0 12px; }
+    p  { font-size: 16px; line-height: 1.5; color: #222; }
+    ul { margin: 16px 0 0; padding-left: 20px; }
+    li { margin: 8px 0; }
+    a  { color: inherit; }
+    .box { border: 1px solid #e6e6e6; border-radius: 12px; padding: 18px; background: #fafafa; margin-top: 18px; }
+    footer { margin-top: 28px; font-size: 12px; color: #666; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Support for helpdesk.example.com has moved</h1>
+    <p>
+      Please use one of the following addresses going forward:
+    </p>
+
+    <div class="box">
+      <ul>
+        <!-- Replace the items below with your real addresses -->
+        <li><a href="http://helpdesk.seventhstate.io">Seventh State Helpdesk</a></li>
+        <li><a href="https://erlangsolutions.atlassian.net/servicedesk/customer/portal/3">MongooseIM Support</a></li>
+        <li><a href="mailto:helpdesk@erlang-solutions.com">Send us mail to helpdesk@erlang-solutions.com</a></li>
+      </ul>
+    </div>
+
+    <footer>
+      © <span id="y"></span> Example
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

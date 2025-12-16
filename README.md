@@ -1,1 +1,0 @@
-We are sorry. We are experiencing some technical difficulties. For RabbitMQ related issues, please report issues at rabbitmq-support@seventhstate.io. For other products (MongooseIM, Erlang) please report issues at helpdesk-direct@erlang-solutions.com
